@@ -1,0 +1,19 @@
+.error-block {
+	padding: 0.5em;
+	color: red;
+}
+
+.input-group {
+	padding: 0.5em;
+}
+
+.input-group-error {
+	padding: 0.5em;	
+	border: 1px solid red;
+	border-radius: 0.25em;
+}
+
+.form-group {
+	display: flex;
+	flex-flow: row nowrap;
+}

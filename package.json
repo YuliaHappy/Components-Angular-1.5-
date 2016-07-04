@@ -1,0 +1,10 @@
+{
+  "name": "ComponentAngular",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Savich Yulia",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.9.0" 
+  }
+}
