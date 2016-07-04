@@ -1,0 +1,7 @@
+<div class="form-group" ng-class="{'has-error': $ctrl.hasError}">
+	<div ng-class="$ctrl.hasError ? 'input-group-error' : 'input-group'">
+		<label class="control-label">{{$ctrl.labelText}}</label>
+		<input type="text" name="text" ng-model="$ctrl.inputValue" ng-blur="$ctrl.blur()"/>
+	</div>
+	<span class="error-block" ng-show="$ctrl.hasError" class="help-block">{{$ctrl.warning}}</span>
+</div>
